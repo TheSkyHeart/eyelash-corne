@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '-', s: _}
-  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: LGUI}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-return$$', h: SYSTEM}
-  - {t: '$$mdi:keyboard-tab$$', h: LOWER}
+  - {t: '$$mdi:backspace$$', h: LOWER}
   COLEMAK:
   - {t: '`', s: '~'}
   - Q
