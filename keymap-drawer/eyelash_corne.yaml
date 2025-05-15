@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', s: _}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: LGUI}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: GAMING}
-  - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: SYSTEM}
   - {t: '$$mdi:keyboard-return$$', h: SYSTEM}
+  - SYMBOL
   - {t: '$$mdi:backspace$$', h: LOWER}
   COLEMAK:
   - {t: '`', s: '~'}
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
   - F1
@@ -240,8 +240,8 @@ layers:
   - {t: /, s: '?'}
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '0', s: )}
   - {t: ',', s: <}
   - {t: ., s: '>'}
@@ -289,9 +289,9 @@ layers:
   - END
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   GAMING:
