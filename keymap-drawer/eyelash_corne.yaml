@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: GAMING}
+  - $$mdi:apple-keyboard-control$$
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: SYSTEM}
   - {t: '$$mdi:keyboard-return$$', h: SYSTEM}
   - SYMBOL
-  - {t: '$$mdi:backspace$$', h: LOWER}
+  - $$mdi:apple-keyboard-option$$
   COLEMAK:
   - {t: '`', s: '~'}
   - Q
@@ -253,10 +253,10 @@ layers:
   - RGB BRD
   - RGB BRI
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - UNDO
-  - PASTE
-  - COPY
-  - CUT
+  - PgUp
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - REDO
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:bluetooth-off$$
@@ -268,9 +268,9 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
+  - PgDn
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:progress-download$$
@@ -283,9 +283,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - LOCK
-  - HOME
-  - PG DN
-  - PG UP
+  - Sft+Ctl+V
+  - Sft+Ctl+C
+  - Sft+Ctl+T
   - END
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
